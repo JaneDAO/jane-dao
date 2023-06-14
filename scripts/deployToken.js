@@ -21,7 +21,7 @@ async function deploy(name, symbol, firstHolder) {
   ]);
   await instance.deployed();
 
-  console.log(`Token ${name}/${symbol} deployed to ${instance.address}`);
+  console.log(`Token ${name}/${symbol} deployed to ${instance.address}. First holder ${firstHolder}`);
 
   return instance;
 }
