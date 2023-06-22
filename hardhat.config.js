@@ -13,7 +13,7 @@ const config = {
   }
 };
 
-if(process.env.DEPLOY) {
+if(process.env.DEPLOY || process.env.VERIFY) {
   require('dotenv').config();
   const INFURA_API_KEY = process.env['INFURA_API_KEY'];
   const MNEMONIC = process.env['MNEMONIC'];
@@ -23,6 +23,13 @@ if(process.env.DEPLOY) {
       accounts: {
         mnemonic: MNEMONIC
       }
+    }
+  };
+
+  const ETHERSCAN_API_KEY = process.env['ETHERSCAN_API_KEY'];
+  config.etherscan = {
+    apiKey: {
+      goerli: ETHERSCAN_API_KEY
     }
   };
 }
