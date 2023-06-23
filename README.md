@@ -9,7 +9,7 @@
 
 ## Community and Tools
 * Tally for on chain governance: https://www.tally.xyz/gov/jane-dao
-* Snapshot for prelimnary low fee governance management: https://snapshot.org/#/myjanedao.eth
+* Snapshot for preliminary low fee governance management: https://snapshot.org/#/myjanedao.eth
 * Hedgey for token vesting management: https://app.hedgey.finance/
 
 If you would like tokens or have any questions please contact product@janedao.world
