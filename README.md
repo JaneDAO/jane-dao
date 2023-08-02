@@ -13,7 +13,8 @@
 * Timelock: `0xD45a6a8A187ec7f1E9b1E275Ca1EccAc98731552` [etherscan](https://goerli.etherscan.io/address/0xD45a6a8A187ec7f1E9b1E275Ca1EccAc98731552)
 
 ## Community and Tools
-* Tally for on chain governance: https://www.tally.xyz/gov/jane-dao
+* Tally for on chain governance (mainnet): https://www.tally.xyz/gov/jane-dao
+* Tally for on chain governance (goerli): https://www.tally.xyz/gov/jane-dao-goerli
 * Snapshot for preliminary low fee governance management: https://snapshot.org/#/myjanedao.eth
 * Hedgey for token vesting management: https://app.hedgey.finance/
 
