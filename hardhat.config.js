@@ -23,13 +23,21 @@ if(process.env.DEPLOY || process.env.VERIFY) {
       accounts: {
         mnemonic: MNEMONIC
       }
+    },
+    mainnet: {
+      url: `https://mainnet.infura.io/v3/${INFURA_API_KEY}`,
+      accounts: {
+        mnemonic: MNEMONIC
+      },
+      gasPrice: 18e9
     }
   };
 
   const ETHERSCAN_API_KEY = process.env['ETHERSCAN_API_KEY'];
   config.etherscan = {
     apiKey: {
-      goerli: ETHERSCAN_API_KEY
+      goerli: ETHERSCAN_API_KEY,
+      mainnet: ETHERSCAN_API_KEY
     }
   };
 }

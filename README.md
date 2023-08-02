@@ -2,6 +2,11 @@
 
 ## Deployments
 
+### Ethereum Mainnet
+* Token: `0x157a0Adbc19Bedf5C7B2E1f14d71F781267E6821` [etherscan](https://etherscan.io/token/0x157a0Adbc19Bedf5C7B2E1f14d71F781267E6821)
+* Governance: `0x8D5C552Bb20117090593148e6BBE021337FF72f8` [etherscan](https://etherscan.io/address/0x8D5C552Bb20117090593148e6BBE021337FF72f8)
+* Timelock: `0x61436342A09D9E6E616eD76B2D2795ecFdFe1972` [etherscan](https://etherscan.io/address/0x61436342A09D9E6E616eD76B2D2795ecFdFe1972)
+
 ### Goerli Testnet
 * Token: `0x6A4ec3EEE5131163f457A26cb4Ed78ce23432b63` [etherscan](https://goerli.etherscan.io/token/0x6A4ec3EEE5131163f457A26cb4Ed78ce23432b63)
 * Governance: `0x16B6def9fAae7C1b1218Da97CFf0767de86a15ee` [etherscan](https://goerli.etherscan.io/address/0x16B6def9fAae7C1b1218Da97CFf0767de86a15ee)
